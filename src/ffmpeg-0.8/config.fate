@@ -1,0 +1,1 @@
+config:x86:x86_32:generic:linux:gcc 4.6 (Ubuntu/Linaro 4.6.3-1ubuntu5):--enable-gpl --enable-libfaac --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libx264 --enable-libxvid --enable-nonfree --enable-postproc --enable-version3 --enable-x11grab

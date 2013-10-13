@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/var/www/opencv/src/ffmpeg-0.8
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 53.1.1
+Requires: libavformat = 53.4.0
+Conflicts:
+Libs: ${libdir}/libavdevice.a -ldl -lX11 -lXext -lXfixes -lva -ljack -lasound -lSDL -lxvidcore -lx264 -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -lopencore-amrwb -lopencore-amrnb -lmp3lame -lfaac -lm -pthread -lz 
+Cflags: -I${includedir}
